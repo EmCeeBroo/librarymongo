@@ -1,0 +1,22 @@
+{
+  "name": "librarymongo",
+  "version": "1.0.0",
+  "description": "Ejercicio APIRest con MongoDB",
+  "license": "ISC",
+  "author": "Alejandro Rudas \"EmCeeCode\"",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "seed": "node seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.3",
+    "morgan": "^1.12.1",
+    "nodemon": "^3.1.14"
+  }
+}
