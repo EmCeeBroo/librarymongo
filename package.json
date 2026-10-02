@@ -4,14 +4,14 @@
   "description": "Ejercicio APIRest con MongoDB",
   "license": "ISC",
   "author": "Alejandro Rudas \"EmCeeCode\"",
-  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js",
-    "seed": "node seed.js",
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "seed": "node scripts/seed.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "dependencies": {
     "dotenv": "^18.0.5",
     "express": "^5.2.1",
