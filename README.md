@@ -11,19 +11,19 @@ Mini proyecto de APIREST con bases de datos NoSQL con MongoDB
     ![alt text](image.png)
 
 2. Ingresar al directorio del proyecto
-   cd nombre-proyecto
+   #### cd nombre-proyecto
 
 3. Instalar dependencias
-   npm install
+   #### npm install
 
 4. Configurar variables de entorno
-   Crea el archivo .env basandose en el archivo .env.example
+   #### Crea el archivo .env basandose en el archivo .env.example
 
 5. Verificar conexion a la base de datos
-   node src/server.js
+   #### node src/server.js
 
 6. Iniciar el servidor en modo desarrollo
-   npm run dev
+   #### npm run dev
 
 ## Autor
 - Alejandro Rudas (EmCeeBroo - EmCeeCode)
