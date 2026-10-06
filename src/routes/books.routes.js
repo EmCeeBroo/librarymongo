@@ -3,7 +3,7 @@ import {getAllBook, getBookById, createBook, updateBook, deleteBook} from "../co
 
 const router = Router();
 
-router.get("/", getAllBook);
+router.get("/all ", getAllBook);
 router.get("/:id", getBookById);
 router.post("/", createBook);
 router.put("/:id", updateBook);

@@ -13,5 +13,4 @@ const uri = MONGODB_URI.replace("<db_password>", encodedPWURIComponent(PW));
 
 export async function connect() {
     await mongoose.connect(uri, { dbName: DB_NAME || "LibraryMongo" });
-    console.log(`Conectado a la base de datos: ${mongoose.connection.name}`);
 }
