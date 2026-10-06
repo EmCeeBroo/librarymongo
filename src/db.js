@@ -1,3 +1,9 @@
+/**
+ * Nodejs + MongoDB 
+ * Autor: EmCeeBroo - EmCeeCode
+ * Descripción: Conexión a la base de datos MongoDB
+ */
+
 import mongoose from "mongoose";
 import "dotenv/config";
 

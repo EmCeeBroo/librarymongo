@@ -3,8 +3,12 @@ Mini proyecto de APIREST con bases de datos NoSQL con MongoDB
 
 # Pasos para la clonacion y ejecucion de manera local
 
-1. Clonar repositorio
-   https://github.com/EmCeeBroo/librarymongo.git
+1.  - Clonar repositorio
+    https://github.com/EmCeeBroo/librarymongo.git 
+    
+    - Descargar Zip
+    Se dirige al boton <> Code, das clic y se podra descargar el archivo en formato ZIP
+    ![alt text](image.png)
 
 2. Ingresar al directorio del proyecto
    cd nombre-proyecto
@@ -20,3 +24,6 @@ Mini proyecto de APIREST con bases de datos NoSQL con MongoDB
 
 6. Iniciar el servidor en modo desarrollo
    npm run dev
+
+## Autor
+- Alejandro Rudas (EmCeeBroo - EmCeeCode)

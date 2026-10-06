@@ -1,3 +1,9 @@
+/**
+ * Nodejs + MongoDB
+ * Autor: EmCeeBroo - EmCeeCode
+ * Descripción: Servidor Express para la aplicación de biblioteca
+ */
+
 import mongoose from "mongoose";
 import express from "express";
 import morgan from "morgan";
